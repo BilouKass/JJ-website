@@ -1,0 +1,23 @@
+
+.btn {
+        background-color: #ffa3a9;
+        border-radius: 4px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 16px;
+        padding: 12px 16px;
+        text-decoration: none;
+        text-shadow: 0px 0px 0px #b23e35;
+    }
+
+.btn:hover {
+        background-color: #F08080;
+    }
+
+.btn:active {
+        position: relative;
+        top: 1px
+    }

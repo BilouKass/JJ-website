@@ -1,0 +1,62 @@
+
+.but_art {
+    background-color: #ffa3a9;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 17px 22px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+}
+
+.but_art:hover {
+    background-color: #F08080;
+}
+
+.but_art:active {
+    position: relative;
+    top: 1px
+}
+
+.subtitle,
+.author,
+.date {
+    color: black;
+    font-size: small;
+}
+
+.title {
+    font-size: larger;
+    text-decoration: underline;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(231, 139, 144);
+}
+.arts_buttons {
+    display: grid;
+    position:initial;
+    column-gap: 8%;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1ch;
+}
+.art_button {
+    display: inline-block;
+    padding: 5%;
+}
+
+
+@media (max-width: 599px) {
+    .arts_buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}

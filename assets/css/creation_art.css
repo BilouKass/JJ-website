@@ -1,0 +1,76 @@
+img {
+    padding: 5px;
+    border: 1px black;
+}
+
+.btn {
+    background-color: #ffa3a9;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+}
+
+.btn:hover {
+    background-color: #F08080;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px
+}
+
+input[type=text] {
+    border: 2px solid rgb(255, 163, 169);
+    border-radius: 4px;
+    min-height: 40px;
+    font-size: medium;
+}
+textarea {
+    border: 2px solid rgb(255, 163, 169);
+    border-radius: 4px;
+    min-height: 40px;
+    font-size: medium;
+}
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+.input {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+}
+.but3 label {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffa3a9;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 17px 22px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+}
+
+input:hover+label,
+input:focus+label {
+    transform: scale(1.02);
+}

@@ -1,0 +1,7 @@
+Deny From All
+<FilesMatch "^disconnect\.php$">
+Allow From All
+</FilesMatch>
+<FilesMatch "^push\.php$">
+Allow From All
+</FilesMatch>

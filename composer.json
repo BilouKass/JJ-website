@@ -1,0 +1,20 @@
+{
+    "name": "bilou/school",
+    "description": "Web push notif",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Bilou\\School\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moi"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "minishlink/web-push": "^7.0",
+        "tinymce/tinymce": "^6.3"
+    }
+}

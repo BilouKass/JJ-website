@@ -1,0 +1,190 @@
+body {
+    font-family: "Cambo", "Times New Roman", serif;
+}
+
+#main-container {
+    text-align: center;
+    display: grid;
+    justify-content: center
+}
+
+.container-solid {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 5px;
+}
+.classe-container {
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+}
+.input {
+    margin: 15px;
+}
+#prof-username {
+    padding: 20px;
+}
+.buttons {
+    margin: 10px;
+}
+#popup {
+    position: absolute;
+    visibility :hidden;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.container2 {
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5%;
+    display: inline-block;
+}
+.popup-text {
+    font-size: x-large;
+}
+#popup_delete {
+    color: red;
+    padding: 6px 12px;
+    margin: 6px;
+}
+#popup_cancel {
+    color: gray;
+    padding: 6px 12px;
+    margin: 6px;
+}
+
+
+#form-new {
+    display: none;
+}
+
+.add_classe {
+    text-align: center;
+}
+.del_but {
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 1px solid #a12727;
+    border-radius: 3px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.del_but:hover,
+.del_but:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.del_but:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+}
+
+.modif_but {
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 1px solid #ac730b;
+    border-radius: 3px;
+    background: #ffbd12;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffbd12), to(#ac730b));
+    background: -moz-linear-gradient(top, #ffbd12, #ac730b);
+    background: linear-gradient(to bottom, #ffbd12, #ac730b);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modif_but:hover,
+.modif_but:focus {
+    border: 1px solid #f6a410;
+    background: #ffe316;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe316), to(#ce8a0d));
+    background: -moz-linear-gradient(top, #ffe316, #ce8a0d);
+    background: linear-gradient(to bottom, #ffe316, #ce8a0d);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modif_but:active {
+    background: #ac730b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ac730b), to(#ac730b));
+    background: -moz-linear-gradient(top, #ac730b, #ac730b);
+    background: linear-gradient(to bottom, #ac730b, #ac730b);
+}
+.button_valid {
+
+    margin: 6px;
+    display: none;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 1px solid #008915;
+    border-radius: 3px;
+    background: #00b806;
+
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button_valid:hover,
+.button_valid:focus {
+    background: #3dc438;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button_valid:active {
+    background: #2bc522;
+}
+
+#new_classe {
+    margin: 5px;
+    background-color: #ffa3a9;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+}
+
+#new_classe:hover {
+    background-color: #F08080;
+}
+
+#new_classe:active {
+    position: relative;
+    top: 1px
+}

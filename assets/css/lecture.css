@@ -1,0 +1,145 @@
+.headr {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.sub {
+    color: grey;
+    font-size: small;
+}
+
+.content {
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title {
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: "Poppins", "Times New Roman", serif;
+}
+
+body {
+    background-image: url("../../image/bg2.webp");
+}
+p a {
+    font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.text-link:visited {
+    color: violet;
+}
+.content {
+    line-height: 125%;
+}
+
+.btn {
+    margin: 5px;
+    background-color: #ffa3a9;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #b23e35;
+}
+
+.btn:hover {
+    background-color: #F08080;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px
+}
+
+.download-button {
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons_admin {
+    text-align: center;
+}
+.del_but {
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 1px solid #a12727;
+    border-radius: 3px;
+    background: #ff4a4a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+    background: -moz-linear-gradient(top, #ff4a4a, #992727);
+    background: linear-gradient(to bottom, #ff4a4a, #992727);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.del_but:hover,
+.del_but:focus {
+    background: #ff5959;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+    background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+    background: linear-gradient(to bottom, #ff5959, #b62f2f);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.del_but:active {
+    background: #982727;
+    background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+    background: -moz-linear-gradient(top, #982727, #982727);
+    background: linear-gradient(to bottom, #982727, #982727);
+}
+
+.modif_but {
+    margin: 6px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 12px;
+    border: 1px solid #ac730b;
+    border-radius: 3px;
+    background: #ffbd12;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffbd12), to(#ac730b));
+    background: -moz-linear-gradient(top, #ffbd12, #ac730b);
+    background: linear-gradient(to bottom, #ffbd12, #ac730b);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modif_but:hover,
+.modif_but:focus {
+    border: 1px solid #f6a410;
+    background: #ffe316;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe316), to(#ce8a0d));
+    background: -moz-linear-gradient(top, #ffe316, #ce8a0d);
+    background: linear-gradient(to bottom, #ffe316, #ce8a0d);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.modif_but:active {
+    background: #ac730b;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ac730b), to(#ac730b));
+    background: -moz-linear-gradient(top, #ac730b, #ac730b);
+    background: linear-gradient(to bottom, #ac730b, #ac730b);
+}
